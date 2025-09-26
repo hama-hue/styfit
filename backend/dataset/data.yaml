@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Women-Pant-Shirt', 'Women-Salwar-Kameez', 'man-shalwar-kameez', 'men-pant-shirt']
+
+roboflow:
+  workspace: legiontech
+  project: men-women-dresscode-2
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/legiontech/men-women-dresscode-2/dataset/2

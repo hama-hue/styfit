@@ -1,0 +1,501 @@
+cluster,item_id,name,category,occasion,body_type,image_path
+29,1,Casual Shorts #1,Shorts,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\001.jpg
+29,2,Casual Jacket #2,Jacket,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\002.jpg
+33,3,Formal Pants #3,Pants,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\003.jpg
+33,4,Formal Dress #4,Dress,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\004.jpg
+29,5,Formal Pants #5,Pants,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\005.jpg
+25,6,Casual Shorts #6,Shorts,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\006.jpg
+5,7,Sporty Pants #7,Pants,Sporty,Hourglass,C:\Users\anish\my_website\backend\dataset\images\007.jpg
+29,8,Party Shirt #8,Shirt,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\008.jpg
+18,9,Casual Jacket #9,Jacket,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\009.jpg
+35,10,Casual Skirt #10,Skirt,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\010.jpg
+34,11,Casual Shirt #11,Shirt,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\011.jpg
+33,12,Party Dress #12,Dress,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\012.jpg
+35,13,Party Shorts #13,Shorts,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\013.jpg
+35,14,Casual Shirt #14,Shirt,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\014.jpg
+3,15,Party Shorts #15,Shorts,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\015.jpg
+3,16,Formal Skirt #16,Skirt,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\016.jpg
+33,17,Sporty Shorts #17,Shorts,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\017.jpg
+35,18,Casual Shirt #18,Shirt,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\018.jpg
+5,19,Party Pants #19,Pants,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\019.jpg
+33,20,Party Skirt #20,Skirt,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\020.jpg
+7,21,Party Shorts #21,Shorts,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\021.jpg
+29,22,Sporty Dress #22,Dress,Sporty,Hourglass,C:\Users\anish\my_website\backend\dataset\images\022.jpg
+35,23,Formal Jacket #23,Jacket,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\023.jpg
+33,24,Formal Skirt #24,Skirt,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\024.jpg
+35,25,Party Skirt #25,Skirt,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\025.jpg
+33,26,Formal Shirt #26,Shirt,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\026.jpg
+5,27,Formal Shirt #27,Shirt,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\027.jpg
+33,28,Sporty Skirt #28,Skirt,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\028.jpg
+35,29,Party Pants #29,Pants,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\029.jpg
+35,30,Casual Pants #30,Pants,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\030.jpg
+35,31,Casual Jacket #31,Jacket,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\031.jpg
+33,32,Formal Skirt #32,Skirt,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\032.jpg
+35,33,Formal Pants #33,Pants,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\033.jpg
+35,34,Casual Skirt #34,Skirt,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\034.jpg
+35,35,Party Pants #35,Pants,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\035.jpg
+35,36,Casual Shirt #36,Shirt,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\036.jpg
+3,37,Formal Pants #37,Pants,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\037.jpg
+35,38,Formal Dress #38,Dress,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\038.jpg
+3,39,Party Skirt #39,Skirt,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\039.jpg
+19,40,Casual Shorts #40,Shorts,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\040.jpg
+3,41,Sporty Dress #41,Dress,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\041.jpg
+29,42,Sporty Shirt #42,Shirt,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\042.jpg
+7,43,Casual Skirt #43,Skirt,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\043.jpg
+19,44,Party Dress #44,Dress,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\044.jpg
+34,45,Sporty Dress #45,Dress,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\045.jpg
+5,46,Party Skirt #46,Skirt,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\046.jpg
+37,47,Casual Skirt #47,Skirt,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\047.jpg
+3,48,Sporty Skirt #48,Skirt,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\048.jpg
+27,49,Party Skirt #49,Skirt,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\049.jpg
+8,50,Formal Jacket #50,Jacket,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\050.jpg
+18,51,Sporty Dress #51,Dress,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\051.jpg
+35,52,Casual Shorts #52,Shorts,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\052.jpg
+35,53,Party Skirt #53,Skirt,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\053.jpg
+15,54,Party Jacket #54,Jacket,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\054.jpg
+0,55,Formal Pants #55,Pants,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\055.jpg
+32,56,Formal Pants #56,Pants,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\056.jpg
+33,57,Formal Shirt #57,Shirt,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\057.jpg
+7,58,Casual Skirt #58,Skirt,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\058.jpg
+37,59,Party Dress #59,Dress,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\059.jpg
+1,60,Casual Dress #60,Dress,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\060.jpg
+8,61,Formal Skirt #61,Skirt,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\061.jpg
+35,62,Formal Shirt #62,Shirt,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\062.jpg
+15,63,Formal Skirt #63,Skirt,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\063.jpg
+25,64,Formal Skirt #64,Skirt,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\064.jpg
+29,65,Formal Skirt #65,Skirt,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\065.jpg
+3,66,Party Dress #66,Dress,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\066.jpg
+33,67,Party Dress #67,Dress,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\067.jpg
+8,68,Party Jacket #68,Jacket,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\068.jpg
+29,69,Sporty Skirt #69,Skirt,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\069.jpg
+31,70,Casual Shorts #70,Shorts,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\070.jpg
+29,71,Sporty Pants #71,Pants,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\071.jpg
+6,72,Casual Skirt #72,Skirt,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\072.jpg
+27,73,Casual Skirt #73,Skirt,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\073.jpg
+27,74,Formal Shorts #74,Shorts,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\074.jpg
+15,75,Party Skirt #75,Skirt,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\075.jpg
+0,76,Sporty Skirt #76,Skirt,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\076.jpg
+18,77,Party Jacket #77,Jacket,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\077.jpg
+37,78,Sporty Dress #78,Dress,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\078.jpg
+7,79,Casual Dress #79,Dress,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\079.jpg
+7,80,Sporty Pants #80,Pants,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\080.jpg
+29,81,Party Jacket #81,Jacket,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\081.jpg
+35,82,Party Shirt #82,Shirt,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\082.jpg
+34,83,Party Pants #83,Pants,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\083.jpg
+8,84,Casual Shorts #84,Shorts,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\084.jpg
+8,85,Party Pants #85,Pants,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\085.jpg
+29,86,Formal Jacket #86,Jacket,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\086.jpg
+28,87,Sporty Jacket #87,Jacket,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\087.jpg
+25,88,Party Skirt #88,Skirt,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\088.jpg
+7,89,Party Jacket #89,Jacket,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\089.jpg
+25,90,Party Jacket #90,Jacket,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\090.jpg
+25,91,Party Pants #91,Pants,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\091.jpg
+19,92,Party Pants #92,Pants,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\092.jpg
+19,93,Formal Jacket #93,Jacket,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\093.jpg
+19,94,Party Skirt #94,Skirt,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\094.jpg
+19,95,Casual Shirt #95,Shirt,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\095.jpg
+19,96,Party Jacket #96,Jacket,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\096.jpg
+19,97,Sporty Skirt #97,Skirt,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\097.jpg
+25,98,Casual Shirt #98,Shirt,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\098.jpg
+25,99,Party Skirt #99,Skirt,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\099.jpg
+25,100,Party Pants #100,Pants,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\100.jpg
+25,101,Party Shorts #101,Shorts,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\101.jpg
+29,102,Sporty Shirt #102,Shirt,Sporty,Hourglass,C:\Users\anish\my_website\backend\dataset\images\102.jpg
+25,103,Casual Shorts #103,Shorts,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\103.jpg
+25,104,Party Dress #104,Dress,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\104.jpg
+25,105,Formal Shirt #105,Shirt,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\105.jpg
+25,106,Casual Skirt #106,Skirt,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\106.jpg
+10,107,Party Shirt #107,Shirt,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\107.jpg
+10,108,Party Pants #108,Pants,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\108.jpg
+34,109,Casual Shorts #109,Shorts,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\109.jpg
+4,110,Formal Pants #110,Pants,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\110.jpg
+4,111,Casual Shorts #111,Shorts,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\111.jpg
+25,112,Casual Skirt #112,Skirt,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\112.jpg
+4,113,Formal Pants #113,Pants,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\113.jpg
+4,114,Party Skirt #114,Skirt,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\114.jpg
+34,115,Party Shirt #115,Shirt,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\115.jpg
+25,116,Party Shirt #116,Shirt,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\116.jpg
+25,117,Party Shirt #117,Shirt,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\117.jpg
+25,118,Formal Pants #118,Pants,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\118.jpg
+15,119,Party Jacket #119,Jacket,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\119.jpg
+34,120,Casual Shorts #120,Shorts,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\120.jpg
+4,121,Formal Dress #121,Dress,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\121.jpg
+4,122,Formal Shorts #122,Shorts,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\122.jpg
+19,123,Formal Jacket #123,Jacket,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\123.jpg
+27,124,Party Dress #124,Dress,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\124.jpg
+13,125,Party Pants #125,Pants,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\125.jpg
+19,126,Sporty Shorts #126,Shorts,Sporty,Hourglass,C:\Users\anish\my_website\backend\dataset\images\126.jpg
+29,127,Party Jacket #127,Jacket,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\127.jpg
+32,128,Sporty Shorts #128,Shorts,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\128.jpg
+13,129,Party Shirt #129,Shirt,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\129.jpg
+18,130,Casual Pants #130,Pants,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\130.jpg
+0,131,Casual Dress #131,Dress,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\131.jpg
+0,132,Sporty Jacket #132,Jacket,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\132.jpg
+18,133,Formal Pants #133,Pants,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\133.jpg
+0,134,Sporty Pants #134,Pants,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\134.jpg
+0,135,Party Skirt #135,Skirt,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\135.jpg
+31,136,Party Shirt #136,Shirt,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\136.jpg
+28,137,Sporty Shirt #137,Shirt,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\137.jpg
+37,138,Casual Pants #138,Pants,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\138.jpg
+20,139,Sporty Skirt #139,Skirt,Sporty,Hourglass,C:\Users\anish\my_website\backend\dataset\images\139.jpg
+30,140,Casual Skirt #140,Skirt,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\140.jpg
+23,141,Sporty Skirt #141,Skirt,Sporty,Hourglass,C:\Users\anish\my_website\backend\dataset\images\141.jpg
+9,142,Formal Shorts #142,Shorts,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\142.jpg
+30,143,Formal Shirt #143,Shirt,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\143.jpg
+36,144,Formal Jacket #144,Jacket,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\144.jpg
+16,145,Formal Jacket #145,Jacket,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\145.jpg
+13,146,Party Pants #146,Pants,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\146.jpg
+3,147,Party Shirt #147,Shirt,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\147.jpg
+23,148,Casual Skirt #148,Skirt,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\148.jpg
+10,149,Party Skirt #149,Skirt,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\149.jpg
+19,150,Party Skirt #150,Skirt,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\150.jpg
+23,151,Casual Shirt #151,Shirt,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\151.jpg
+2,152,Formal Dress #152,Dress,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\152.jpg
+17,153,Sporty Skirt #153,Skirt,Sporty,Hourglass,C:\Users\anish\my_website\backend\dataset\images\153.jpg
+30,154,Sporty Dress #154,Dress,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\154.jpg
+16,155,Formal Shirt #155,Shirt,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\155.jpg
+34,156,Sporty Shirt #156,Shirt,Sporty,Hourglass,C:\Users\anish\my_website\backend\dataset\images\156.jpg
+32,157,Formal Pants #157,Pants,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\157.jpg
+23,158,Casual Skirt #158,Skirt,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\158.jpg
+9,159,Formal Shorts #159,Shorts,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\159.jpg
+30,160,Party Shirt #160,Shirt,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\160.jpg
+19,161,Sporty Pants #161,Pants,Sporty,Hourglass,C:\Users\anish\my_website\backend\dataset\images\161.jpg
+5,162,Formal Skirt #162,Skirt,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\162.jpg
+16,163,Sporty Jacket #163,Jacket,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\163.jpg
+36,164,Formal Shirt #164,Shirt,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\164.jpg
+20,165,Sporty Pants #165,Pants,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\165.jpg
+16,166,Formal Shirt #166,Shirt,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\166.jpg
+22,167,Formal Dress #167,Dress,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\167.jpg
+21,168,Sporty Dress #168,Dress,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\168.jpg
+20,169,Sporty Jacket #169,Jacket,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\169.jpg
+9,170,Casual Shirt #170,Shirt,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\170.jpg
+10,171,Formal Dress #171,Dress,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\171.jpg
+27,172,Sporty Shorts #172,Shorts,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\172.jpg
+34,173,Sporty Jacket #173,Jacket,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\173.jpg
+16,174,Sporty Shorts #174,Shorts,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\174.jpg
+23,175,Party Skirt #175,Skirt,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\175.jpg
+9,176,Sporty Pants #176,Pants,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\176.jpg
+8,177,Sporty Shirt #177,Shirt,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\177.jpg
+11,178,Sporty Dress #178,Dress,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\178.jpg
+34,179,Sporty Shirt #179,Shirt,Sporty,Hourglass,C:\Users\anish\my_website\backend\dataset\images\179.jpg
+32,180,Formal Pants #180,Pants,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\180.jpg
+16,181,Casual Shorts #181,Shorts,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\181.jpg
+11,182,Sporty Skirt #182,Skirt,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\182.jpg
+20,183,Party Shorts #183,Shorts,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\183.jpg
+10,184,Formal Skirt #184,Skirt,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\184.jpg
+32,185,Formal Shirt #185,Shirt,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\185.jpg
+16,186,Casual Shorts #186,Shorts,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\186.jpg
+34,187,Casual Pants #187,Pants,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\187.jpg
+2,188,Party Skirt #188,Skirt,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\188.jpg
+27,189,Formal Skirt #189,Skirt,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\189.jpg
+30,190,Sporty Shorts #190,Shorts,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\190.jpg
+9,191,Sporty Shirt #191,Shirt,Sporty,Hourglass,C:\Users\anish\my_website\backend\dataset\images\191.jpg
+34,192,Sporty Pants #192,Pants,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\192.jpg
+36,193,Sporty Jacket #193,Jacket,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\193.jpg
+2,194,Party Dress #194,Dress,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\194.jpg
+20,195,Sporty Skirt #195,Skirt,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\195.jpg
+13,196,Casual Pants #196,Pants,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\196.jpg
+11,197,Party Shirt #197,Shirt,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\197.jpg
+23,198,Formal Skirt #198,Skirt,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\198.jpg
+30,199,Formal Shirt #199,Shirt,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\199.jpg
+18,200,Formal Shirt #200,Shirt,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\200.jpg
+10,201,Party Shirt #201,Shirt,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\201.jpg
+9,202,Party Skirt #202,Skirt,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\202.jpg
+20,203,Party Jacket #203,Jacket,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\203.jpg
+30,204,Party Dress #204,Dress,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\204.jpg
+30,205,Party Jacket #205,Jacket,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\205.jpg
+30,206,Formal Shirt #206,Shirt,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\206.jpg
+20,207,Party Shorts #207,Shorts,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\207.jpg
+19,208,Casual Skirt #208,Skirt,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\208.jpg
+2,209,Party Shirt #209,Shirt,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\209.jpg
+18,210,Party Dress #210,Dress,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\210.jpg
+10,211,Formal Pants #211,Pants,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\211.jpg
+4,212,Formal Shorts #212,Shorts,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\212.jpg
+34,213,Party Jacket #213,Jacket,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\213.jpg
+5,214,Casual Jacket #214,Jacket,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\214.jpg
+34,215,Party Dress #215,Dress,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\215.jpg
+23,216,Casual Shirt #216,Shirt,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\216.jpg
+32,217,Casual Pants #217,Pants,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\217.jpg
+37,218,Party Skirt #218,Skirt,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\218.jpg
+8,219,Formal Skirt #219,Skirt,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\219.jpg
+30,220,Party Pants #220,Pants,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\220.jpg
+20,221,Sporty Pants #221,Pants,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\221.jpg
+34,222,Formal Dress #222,Dress,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\222.jpg
+0,223,Formal Jacket #223,Jacket,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\223.jpg
+34,224,Formal Jacket #224,Jacket,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\224.jpg
+30,225,Sporty Dress #225,Dress,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\225.jpg
+21,226,Party Pants #226,Pants,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\226.jpg
+34,227,Casual Shorts #227,Shorts,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\227.jpg
+18,228,Formal Shirt #228,Shirt,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\228.jpg
+18,229,Party Dress #229,Dress,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\229.jpg
+16,230,Casual Shirt #230,Shirt,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\230.jpg
+9,231,Casual Shirt #231,Shirt,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\231.jpg
+10,232,Casual Jacket #232,Jacket,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\232.jpg
+11,233,Casual Pants #233,Pants,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\233.jpg
+5,234,Formal Pants #234,Pants,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\234.jpg
+34,235,Party Shirt #235,Shirt,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\235.jpg
+20,236,Casual Jacket #236,Jacket,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\236.jpg
+2,237,Casual Shorts #237,Shorts,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\237.jpg
+30,238,Casual Shirt #238,Shirt,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\238.jpg
+25,239,Formal Dress #239,Dress,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\239.jpg
+34,240,Formal Shirt #240,Shirt,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\240.jpg
+34,241,Casual Shirt #241,Shirt,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\241.jpg
+23,242,Sporty Skirt #242,Skirt,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\242.jpg
+15,243,Casual Skirt #243,Skirt,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\243.jpg
+32,244,Formal Shorts #244,Shorts,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\244.jpg
+7,245,Formal Shirt #245,Shirt,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\245.jpg
+29,246,Casual Pants #246,Pants,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\246.jpg
+0,247,Casual Shirt #247,Shirt,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\247.jpg
+23,248,Sporty Shirt #248,Shirt,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\248.jpg
+34,249,Casual Pants #249,Pants,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\249.jpg
+18,250,Casual Dress #250,Dress,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\250.jpg
+28,251,Sporty Jacket #251,Jacket,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\251.jpg
+35,252,Casual Pants #252,Pants,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\252.jpg
+12,253,Party Shorts #253,Shorts,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\253.jpg
+36,254,Sporty Skirt #254,Skirt,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\254.jpg
+20,255,Party Dress #255,Dress,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\255.jpg
+23,256,Formal Jacket #256,Jacket,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\256.jpg
+28,257,Sporty Shorts #257,Shorts,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\257.jpg
+20,258,Casual Pants #258,Pants,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\258.jpg
+10,259,Casual Jacket #259,Jacket,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\259.jpg
+1,260,Sporty Dress #260,Dress,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\260.jpg
+16,261,Formal Shirt #261,Shirt,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\261.jpg
+34,262,Sporty Jacket #262,Jacket,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\262.jpg
+0,263,Formal Shorts #263,Shorts,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\263.jpg
+7,264,Formal Jacket #264,Jacket,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\264.jpg
+13,265,Party Shorts #265,Shorts,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\265.jpg
+27,266,Formal Shorts #266,Shorts,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\266.jpg
+34,267,Sporty Jacket #267,Jacket,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\267.jpg
+18,268,Party Pants #268,Pants,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\268.jpg
+20,269,Party Dress #269,Dress,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\269.jpg
+32,270,Casual Skirt #270,Skirt,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\270.jpg
+20,271,Party Shirt #271,Shirt,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\271.jpg
+34,272,Formal Skirt #272,Skirt,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\272.jpg
+20,273,Casual Skirt #273,Skirt,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\273.jpg
+28,274,Sporty Jacket #274,Jacket,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\274.jpg
+10,275,Sporty Shorts #275,Shorts,Sporty,Hourglass,C:\Users\anish\my_website\backend\dataset\images\275.jpg
+34,276,Formal Skirt #276,Skirt,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\276.jpg
+8,277,Formal Pants #277,Pants,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\277.jpg
+34,278,Party Shorts #278,Shorts,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\278.jpg
+30,279,Casual Dress #279,Dress,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\279.jpg
+23,280,Casual Pants #280,Pants,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\280.jpg
+13,281,Sporty Shorts #281,Shorts,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\281.jpg
+34,282,Sporty Jacket #282,Jacket,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\282.jpg
+20,283,Sporty Shirt #283,Shirt,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\283.jpg
+20,284,Party Shirt #284,Shirt,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\284.jpg
+8,285,Formal Dress #285,Dress,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\285.jpg
+20,286,Formal Jacket #286,Jacket,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\286.jpg
+27,287,Casual Shirt #287,Shirt,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\287.jpg
+18,288,Casual Shorts #288,Shorts,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\288.jpg
+10,289,Formal Jacket #289,Jacket,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\289.jpg
+18,290,Formal Dress #290,Dress,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\290.jpg
+20,291,Casual Skirt #291,Skirt,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\291.jpg
+34,292,Sporty Shirt #292,Shirt,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\292.jpg
+20,293,Casual Shorts #293,Shorts,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\293.jpg
+20,294,Party Dress #294,Dress,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\294.jpg
+20,295,Party Skirt #295,Skirt,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\295.jpg
+34,296,Casual Pants #296,Pants,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\296.jpg
+34,297,Formal Pants #297,Pants,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\297.jpg
+34,298,Casual Pants #298,Pants,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\298.jpg
+15,299,Casual Dress #299,Dress,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\299.jpg
+34,300,Formal Shirt #300,Shirt,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\300.jpg
+0,301,Casual Jacket #301,Jacket,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\301.jpg
+31,302,Casual Dress #302,Dress,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\302.jpg
+18,303,Casual Shirt #303,Shirt,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\303.jpg
+10,304,Formal Dress #304,Dress,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\304.jpg
+20,305,Casual Skirt #305,Skirt,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\305.jpg
+23,306,Casual Dress #306,Dress,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\306.jpg
+34,307,Party Shorts #307,Shorts,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\307.jpg
+34,308,Formal Shorts #308,Shorts,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\308.jpg
+14,309,Formal Dress #309,Dress,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\309.jpg
+34,310,Party Pants #310,Pants,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\310.jpg
+34,311,Casual Skirt #311,Skirt,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\311.jpg
+20,312,Casual Jacket #312,Jacket,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\312.jpg
+18,313,Formal Shirt #313,Shirt,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\313.jpg
+32,314,Sporty Jacket #314,Jacket,Sporty,Hourglass,C:\Users\anish\my_website\backend\dataset\images\314.jpg
+13,315,Formal Shirt #315,Shirt,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\315.jpg
+21,316,Casual Pants #316,Pants,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\316.jpg
+34,317,Party Dress #317,Dress,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\317.jpg
+34,318,Formal Jacket #318,Jacket,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\318.jpg
+10,319,Formal Jacket #319,Jacket,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\319.jpg
+32,320,Formal Dress #320,Dress,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\320.jpg
+1,321,Party Shorts #321,Shorts,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\321.jpg
+21,322,Formal Skirt #322,Skirt,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\322.jpg
+20,323,Party Shirt #323,Shirt,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\323.jpg
+13,324,Party Shirt #324,Shirt,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\324.jpg
+8,325,Party Jacket #325,Jacket,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\325.jpg
+16,326,Party Pants #326,Pants,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\326.jpg
+20,327,Formal Shorts #327,Shorts,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\327.jpg
+24,328,Casual Dress #328,Dress,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\328.jpg
+1,329,Sporty Jacket #329,Jacket,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\329.jpg
+20,330,Formal Shorts #330,Shorts,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\330.jpg
+18,331,Casual Skirt #331,Skirt,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\331.jpg
+10,332,Sporty Jacket #332,Jacket,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\332.jpg
+5,333,Party Dress #333,Dress,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\333.jpg
+1,334,Party Shirt #334,Shirt,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\334.jpg
+34,335,Party Jacket #335,Jacket,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\335.jpg
+12,336,Sporty Skirt #336,Skirt,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\336.jpg
+17,337,Casual Skirt #337,Skirt,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\337.jpg
+5,338,Sporty Jacket #338,Jacket,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\338.jpg
+20,339,Formal Jacket #339,Jacket,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\339.jpg
+31,340,Sporty Dress #340,Dress,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\340.jpg
+4,341,Formal Jacket #341,Jacket,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\341.jpg
+34,342,Party Skirt #342,Skirt,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\342.jpg
+14,343,Formal Shorts #343,Shorts,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\343.jpg
+3,344,Casual Shirt #344,Shirt,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\344.jpg
+34,345,Sporty Pants #345,Pants,Sporty,Hourglass,C:\Users\anish\my_website\backend\dataset\images\345.jpg
+34,346,Formal Pants #346,Pants,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\346.jpg
+34,347,Formal Skirt #347,Skirt,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\347.jpg
+30,348,Sporty Dress #348,Dress,Sporty,Hourglass,C:\Users\anish\my_website\backend\dataset\images\348.jpg
+1,349,Sporty Skirt #349,Skirt,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\349.jpg
+12,350,Party Pants #350,Pants,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\350.jpg
+12,351,Party Dress #351,Dress,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\351.jpg
+20,352,Formal Pants #352,Pants,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\352.jpg
+10,353,Sporty Dress #353,Dress,Sporty,Hourglass,C:\Users\anish\my_website\backend\dataset\images\353.jpg
+18,354,Party Skirt #354,Skirt,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\354.jpg
+3,355,Formal Dress #355,Dress,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\355.jpg
+36,356,Casual Skirt #356,Skirt,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\356.jpg
+37,357,Sporty Shorts #357,Shorts,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\357.jpg
+18,358,Formal Jacket #358,Jacket,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\358.jpg
+4,359,Sporty Shirt #359,Shirt,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\359.jpg
+34,360,Party Skirt #360,Skirt,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\360.jpg
+3,361,Party Shirt #361,Shirt,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\361.jpg
+34,362,Casual Shirt #362,Shirt,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\362.jpg
+9,363,Casual Jacket #363,Jacket,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\363.jpg
+20,364,Casual Jacket #364,Jacket,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\364.jpg
+20,365,Formal Shorts #365,Shorts,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\365.jpg
+20,366,Formal Dress #366,Dress,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\366.jpg
+31,367,Casual Jacket #367,Jacket,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\367.jpg
+8,368,Sporty Jacket #368,Jacket,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\368.jpg
+18,369,Party Dress #369,Dress,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\369.jpg
+29,370,Sporty Pants #370,Pants,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\370.jpg
+8,371,Party Jacket #371,Jacket,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\371.jpg
+13,372,Party Pants #372,Pants,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\372.jpg
+30,373,Sporty Shorts #373,Shorts,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\373.jpg
+30,374,Formal Dress #374,Dress,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\374.jpg
+13,375,Casual Shirt #375,Shirt,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\375.jpg
+1,376,Formal Dress #376,Dress,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\376.jpg
+23,377,Casual Pants #377,Pants,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\377.jpg
+7,378,Formal Skirt #378,Skirt,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\378.jpg
+21,379,Casual Dress #379,Dress,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\379.jpg
+15,380,Party Pants #380,Pants,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\380.jpg
+3,381,Formal Shirt #381,Shirt,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\381.jpg
+9,382,Party Jacket #382,Jacket,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\382.jpg
+1,383,Party Skirt #383,Skirt,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\383.jpg
+13,384,Casual Dress #384,Dress,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\384.jpg
+18,385,Party Shorts #385,Shorts,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\385.jpg
+18,386,Casual Skirt #386,Skirt,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\386.jpg
+0,387,Party Shorts #387,Shorts,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\387.jpg
+18,388,Formal Jacket #388,Jacket,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\388.jpg
+8,389,Party Shirt #389,Shirt,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\389.jpg
+38,390,Sporty Dress #390,Dress,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\390.jpg
+0,391,Party Jacket #391,Jacket,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\391.jpg
+16,392,Party Shirt #392,Shirt,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\392.jpg
+12,393,Sporty Jacket #393,Jacket,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\393.jpg
+22,394,Party Shorts #394,Shorts,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\394.jpg
+11,395,Sporty Skirt #395,Skirt,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\395.jpg
+19,396,Sporty Shirt #396,Shirt,Sporty,Hourglass,C:\Users\anish\my_website\backend\dataset\images\396.jpg
+0,397,Party Dress #397,Dress,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\397.jpg
+13,398,Formal Shirt #398,Shirt,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\398.jpg
+32,399,Sporty Shirt #399,Shirt,Sporty,Hourglass,C:\Users\anish\my_website\backend\dataset\images\399.jpg
+8,400,Formal Shirt #400,Shirt,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\400.jpg
+22,401,Sporty Shirt #401,Shirt,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\401.jpg
+3,402,Party Dress #402,Dress,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\402.jpg
+9,403,Party Jacket #403,Jacket,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\403.jpg
+28,404,Formal Dress #404,Dress,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\404.jpg
+2,405,Casual Skirt #405,Skirt,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\405.jpg
+11,406,Formal Dress #406,Dress,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\406.jpg
+22,407,Formal Jacket #407,Jacket,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\407.jpg
+19,408,Sporty Shorts #408,Shorts,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\408.jpg
+10,409,Party Skirt #409,Skirt,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\409.jpg
+21,410,Sporty Jacket #410,Jacket,Sporty,Hourglass,C:\Users\anish\my_website\backend\dataset\images\410.jpg
+8,411,Casual Shorts #411,Shorts,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\411.jpg
+10,412,Casual Shirt #412,Shirt,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\412.jpg
+26,413,Party Shirt #413,Shirt,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\413.jpg
+10,414,Formal Shirt #414,Shirt,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\414.jpg
+2,415,Party Shorts #415,Shorts,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\415.jpg
+8,416,Sporty Dress #416,Dress,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\416.jpg
+36,417,Formal Pants #417,Pants,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\417.jpg
+3,418,Party Shirt #418,Shirt,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\418.jpg
+18,419,Casual Shirt #419,Shirt,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\419.jpg
+27,420,Formal Skirt #420,Skirt,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\420.jpg
+18,421,Casual Dress #421,Dress,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\421.jpg
+16,422,Party Jacket #422,Jacket,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\422.jpg
+2,423,Sporty Shorts #423,Shorts,Sporty,Hourglass,C:\Users\anish\my_website\backend\dataset\images\423.jpg
+13,424,Casual Shorts #424,Shorts,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\424.jpg
+14,425,Formal Dress #425,Dress,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\425.jpg
+16,426,Formal Dress #426,Dress,Formal,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\426.jpg
+13,427,Formal Shirt #427,Shirt,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\427.jpg
+22,428,Casual Pants #428,Pants,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\428.jpg
+28,429,Formal Pants #429,Pants,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\429.jpg
+30,430,Sporty Pants #430,Pants,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\430.jpg
+18,431,Party Jacket #431,Jacket,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\431.jpg
+30,432,Sporty Skirt #432,Skirt,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\432.jpg
+2,433,Sporty Jacket #433,Jacket,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\433.jpg
+17,434,Casual Pants #434,Pants,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\434.jpg
+9,435,Party Skirt #435,Skirt,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\435.jpg
+19,436,Party Jacket #436,Jacket,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\436.jpg
+7,437,Formal Shorts #437,Shorts,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\437.jpg
+18,438,Casual Dress #438,Dress,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\438.jpg
+7,439,Sporty Dress #439,Dress,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\439.jpg
+23,440,Party Pants #440,Pants,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\440.jpg
+30,441,Casual Shirt #441,Shirt,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\441.jpg
+17,442,Party Skirt #442,Skirt,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\442.jpg
+2,443,Sporty Dress #443,Dress,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\443.jpg
+0,444,Party Pants #444,Pants,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\444.jpg
+9,445,Formal Skirt #445,Skirt,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\445.jpg
+10,446,Party Shirt #446,Shirt,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\446.jpg
+1,447,Sporty Pants #447,Pants,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\447.jpg
+9,448,Casual Pants #448,Pants,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\448.jpg
+29,449,Sporty Pants #449,Pants,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\449.jpg
+34,450,Party Dress #450,Dress,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\450.jpg
+13,451,Party Shirt #451,Shirt,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\451.jpg
+7,452,Party Pants #452,Pants,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\452.jpg
+10,453,Formal Dress #453,Dress,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\453.jpg
+8,454,Casual Shirt #454,Shirt,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\454.jpg
+8,455,Party Shirt #455,Shirt,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\455.jpg
+21,456,Formal Skirt #456,Skirt,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\456.jpg
+1,457,Casual Jacket #457,Jacket,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\457.jpg
+22,458,Party Dress #458,Dress,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\458.jpg
+30,459,Formal Pants #459,Pants,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\459.jpg
+19,460,Formal Jacket #460,Jacket,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\460.jpg
+9,461,Party Shirt #461,Shirt,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\461.jpg
+30,462,Party Shirt #462,Shirt,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\462.jpg
+1,463,Sporty Shirt #463,Shirt,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\463.jpg
+13,464,Formal Pants #464,Pants,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\464.jpg
+8,465,Formal Skirt #465,Skirt,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\465.jpg
+19,466,Party Dress #466,Dress,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\466.jpg
+19,467,Sporty Dress #467,Dress,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\467.jpg
+19,468,Casual Shirt #468,Shirt,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\468.jpg
+8,469,Party Shorts #469,Shorts,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\469.jpg
+8,470,Party Pants #470,Pants,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\470.jpg
+15,471,Casual Skirt #471,Skirt,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\471.jpg
+15,472,Casual Shorts #472,Shorts,Casual,Athletic,C:\Users\anish\my_website\backend\dataset\images\472.jpg
+11,473,Party Dress #473,Dress,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\473.jpg
+39,474,Sporty Pants #474,Pants,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\474.jpg
+5,475,Party Shirt #475,Shirt,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\475.jpg
+18,476,Casual Shirt #476,Shirt,Casual,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\476.jpg
+15,477,Formal Shirt #477,Shirt,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\477.jpg
+17,478,Party Shorts #478,Shorts,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\478.jpg
+28,479,Party Pants #479,Pants,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\479.jpg
+3,480,Casual Dress #480,Dress,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\480.jpg
+18,481,Party Jacket #481,Jacket,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\481.jpg
+5,482,Formal Dress #482,Dress,Formal,Athletic,C:\Users\anish\my_website\backend\dataset\images\482.jpg
+28,483,Party Dress #483,Dress,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\483.jpg
+7,484,Formal Shirt #484,Shirt,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\484.jpg
+22,485,Sporty Skirt #485,Skirt,Sporty,Pear,C:\Users\anish\my_website\backend\dataset\images\485.jpg
+15,486,Sporty Shirt #486,Shirt,Sporty,Athletic,C:\Users\anish\my_website\backend\dataset\images\486.jpg
+28,487,Casual Pants #487,Pants,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\487.jpg
+33,488,Party Skirt #488,Skirt,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\488.jpg
+11,489,Party Shorts #489,Shorts,Party,Pear,C:\Users\anish\my_website\backend\dataset\images\489.jpg
+11,490,Formal Shorts #490,Shorts,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\490.jpg
+11,491,Party Dress #491,Dress,Party,Hourglass,C:\Users\anish\my_website\backend\dataset\images\491.jpg
+18,492,Party Pants #492,Pants,Party,Athletic,C:\Users\anish\my_website\backend\dataset\images\492.jpg
+3,493,Formal Jacket #493,Jacket,Formal,Pear,C:\Users\anish\my_website\backend\dataset\images\493.jpg
+28,494,Formal Dress #494,Dress,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\494.jpg
+15,495,Party Shirt #495,Shirt,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\495.jpg
+15,496,Casual Skirt #496,Skirt,Casual,Pear,C:\Users\anish\my_website\backend\dataset\images\496.jpg
+0,497,Formal Shorts #497,Shorts,Formal,Hourglass,C:\Users\anish\my_website\backend\dataset\images\497.jpg
+28,498,Casual Shirt #498,Shirt,Casual,Hourglass,C:\Users\anish\my_website\backend\dataset\images\498.jpg
+11,499,Sporty Skirt #499,Skirt,Sporty,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\499.jpg
+20,500,Party Jacket #500,Jacket,Party,Inverted Triangle,C:\Users\anish\my_website\backend\dataset\images\500.jpg

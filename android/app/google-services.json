@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "511467920913",
+    "project_id": "my-styfit",
+    "storage_bucket": "my-styfit.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511467920913:android:6699586b3d5335312e9bb0",
+        "android_client_info": {
+          "package_name": "com.example.my_website"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIHlCKysQStCFHqIkjzMjKFK8vNKJV8RE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

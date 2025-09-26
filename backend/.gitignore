@@ -1,0 +1,11 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pkl
+*.pth
+*.pt
+models/*
+!.gitkeep  # if you want to keep the directory but not the files
+serviceAccountKey.json
+.env
