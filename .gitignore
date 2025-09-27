@@ -1,41 +1,16 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Virtual env
+# Python / Virtual Environment
 .venv/
-env/
-ENV/
+__pycache__/
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Jupyter
-.ipynb_checkpoints
-
-# Cache / models
-*.dll
-*.lib
-*.so
-*.bin
-*.pt
-*.pth
-*.onnx
-*.ckpt
-*.h5
-*.tflite
-
-# Torch cache
+# Torch / Cache
 backend/.torch_cache/
 backend/torch_cache/
-backend/models/
 
-# Secrets
+# Models & Secrets
+backend/models/
 backend/.env
 backend/serviceAccountKey.json
+
+# VS Code / OS files
+.vscode/
+.DS_Store
