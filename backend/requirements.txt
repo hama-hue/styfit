@@ -1,4 +1,3 @@
---upgrade pip
 anyio==4.10.0
 CacheControl==0.14.3
 cachetools==5.5.2
