@@ -11,6 +11,7 @@ from torchvision.models import ResNet50_Weights
 from sklearn.neighbors import NearestNeighbors
 import pickle
 import gdown
+from functools import lru_cache
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -56,7 +57,11 @@ def download_from_gdrive(models_dir="models"):
         gdown.download(url, dest, quiet=False)
         logger.info(f"Downloaded {fname} -> {dest}")
 
+@lru_cache(maxsize=1)
 def load_models(models_dir="models"):
+    """
+    Loads models and data lazily. Cached after first call.
+    """
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     logger.info(f"Loading ResNet50 on {device}")
 
@@ -107,9 +112,15 @@ def load_models(models_dir="models"):
         else:
             logger.warning("⚠️ knn_model.pkl not found and features not available — recommendations may not work")
 
+    return MODELS
+
 def extract_features_from_bytes(image_bytes):
+    """
+    Lazily loads models if not already loaded.
+    """
     if MODELS["feature_extractor"] is None:
-        raise RuntimeError("Models not loaded")
+        logger.info("⚡ First-time model load triggered...")
+        load_models()
 
     model, device = MODELS["feature_extractor"]
     img = Image.open(io.BytesIO(image_bytes)).convert("RGB")
