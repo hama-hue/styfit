@@ -8,8 +8,8 @@ import torch
 from torchvision import models, transforms
 from torchvision.models import ResNet50_Weights
 from sklearn.neighbors import NearestNeighbors
-from sklearn.cluster import KMeans
 import pickle
+import gdown  # to download from Google Drive
 
 logger = logging.getLogger(__name__)
 
@@ -21,9 +21,26 @@ MODELS = {
     "transform": None,
     "features": None,
     "metadata": None,
-    "knn": None,
-    "kmeans": None
+    "knn": None
 }
+
+# Google Drive file IDs (replace with your actual IDs)
+GDRIVE_FILES = {
+    "features.npy": "1DTAY1JOrduOfZYKSuepwq2Ho3ntNhQ4z",
+    "metadata.csv": "1Mf6GD170Tdlh4GqNelu2RserdWmiweYR",
+    "knn_model.pkl": "13q1swYdmF8GNow120mvPKHcqC02ONr-f"
+}
+
+def download_from_gdrive(models_dir="models"):
+    os.makedirs(models_dir, exist_ok=True)
+    for filename, file_id in GDRIVE_FILES.items():
+        path = os.path.join(models_dir, filename)
+        if not os.path.exists(path):
+            logger.info(f"⬇️ Downloading {filename} from Google Drive...")
+            url = f"https://drive.google.com/uc?id={file_id}"
+            gdown.download(url, path, quiet=False)
+        else:
+            logger.info(f"✅ {filename} already exists")
 
 def load_models(models_dir="models"):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -40,12 +57,13 @@ def load_models(models_dir="models"):
         transforms.ToTensor(),
     ])
 
+    # Ensure models_dir exists and files are downloaded
+    download_from_gdrive(models_dir)
+
     # Load features
     features_path = os.path.join(models_dir, "features.npy")
     if os.path.exists(features_path):
         MODELS["features"] = np.load(features_path)
-        MODELS["knn"] = NearestNeighbors(n_neighbors=5, metric="euclidean")
-        MODELS["knn"].fit(MODELS["features"])
         logger.info("✅ features.npy loaded")
     else:
         logger.warning("⚠️ features.npy not found")
@@ -58,15 +76,14 @@ def load_models(models_dir="models"):
     else:
         logger.warning("⚠️ metadata.csv not found")
 
-    # Load or train KMeans
-    kmeans_pkl = os.path.join(models_dir, "kmeans.pkl")
-    if os.path.exists(kmeans_pkl):
-        with open(kmeans_pkl, "rb") as f:
-            MODELS["kmeans"] = pickle.load(f)
-        logger.info("✅ kmeans.pkl loaded")
-    elif MODELS["features"] is not None:
-        MODELS["kmeans"] = KMeans(n_clusters=20, random_state=42).fit(MODELS["features"])
-        logger.info("✅ KMeans fitted")
+    # Load KNN model
+    knn_path = os.path.join(models_dir, "knn_model.pkl")
+    if os.path.exists(knn_path):
+        with open(knn_path, "rb") as f:
+            MODELS["knn"] = pickle.load(f)
+        logger.info("✅ knn_model.pkl loaded")
+    else:
+        logger.warning("⚠️ knn_model.pkl not found")
 
 def extract_features_from_bytes(image_bytes):
     if MODELS["feature_extractor"] is None:

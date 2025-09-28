@@ -1,0 +1,31 @@
+[debug] [2025-09-05T10:53:11.237Z] ----------------------------------------------------------------------
+[debug] [2025-09-05T10:53:11.244Z] Command:       C:\Users\anish\node.exe C:\Users\anish\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:sdkconfig web 1:511467920913:web:70478334eeb38abb2e9bb0 --json
+[debug] [2025-09-05T10:53:11.246Z] CLI Version:   14.15.2
+[debug] [2025-09-05T10:53:11.246Z] Platform:      win32
+[debug] [2025-09-05T10:53:11.247Z] Node Version:  v22.19.0
+[debug] [2025-09-05T10:53:11.247Z] Time:          Fri Sep 05 2025 16:23:11 GMT+0530 (India Standard Time)
+[debug] [2025-09-05T10:53:11.248Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-09-05T10:53:11.803Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2025-09-05T10:53:11.815Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-09-05T10:53:11.816Z] > authorizing via signed-in user (anishasingh1101@gmail.com)
+[debug] [2025-09-05T10:53:11.823Z] Checked if tokens are valid: true, expires at: 1757072919325
+[debug] [2025-09-05T10:53:11.824Z] Checked if tokens are valid: true, expires at: 1757072919325
+[debug] [2025-09-05T10:53:11.828Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:511467920913:web:70478334eeb38abb2e9bb0/config [none]
+[debug] [2025-09-05T10:53:24.358Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:511467920913:web:70478334eeb38abb2e9bb0/config 200
+[debug] [2025-09-05T10:53:24.359Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:511467920913:web:70478334eeb38abb2e9bb0/config {"projectId":"my-styfit","appId":"1:511467920913:web:70478334eeb38abb2e9bb0","storageBucket":"my-styfit.firebasestorage.app","apiKey":"AIzaSyCwEV8kfBMVX4wVia4eUq4fH2O-Zw_b_1w","authDomain":"my-styfit.firebaseapp.com","messagingSenderId":"511467920913","measurementId":"G-EHVFRNJ954"}
+[info] {
+  "projectId": "my-styfit",
+  "appId": "1:511467920913:web:70478334eeb38abb2e9bb0",
+  "storageBucket": "my-styfit.firebasestorage.app",
+  "apiKey": "AIzaSyCwEV8kfBMVX4wVia4eUq4fH2O-Zw_b_1w",
+  "authDomain": "my-styfit.firebaseapp.com",
+  "messagingSenderId": "511467920913",
+  "measurementId": "G-EHVFRNJ954"
+}
+[debug] [2025-09-05T10:53:30.196Z] Error: Timed out.
+    at Timeout.<anonymous> (C:\Users\anish\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:273:49)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+[error] 
+[error] Error: An unexpected error has occurred.

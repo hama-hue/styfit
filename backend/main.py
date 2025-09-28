@@ -16,7 +16,11 @@ app = FastAPI(title="AI Lifestyle Assistant")
 # Enable CORS (frontend can connect)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://127.0.0.1:8001", "http://localhost:8001", "http://localhost:5500"],   # TODO: restrict to frontend URL in production
+    allow_origins=[
+        "http://127.0.0.1:8001",
+        "http://localhost:8001",
+        "http://localhost:5500"
+    ],  # ⚠️ Update with your frontend’s actual URL in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -34,10 +38,18 @@ from utils import load_models
 
 @app.on_event("startup")
 async def startup_event():
-    logger.info("🚀 Loading models at startup...")
-    load_models(models_dir=os.path.join(os.path.dirname(__file__), "models"))
-    logger.info("✅ Models loaded successfully!")
+    logger.info("🚀 Starting backend... preparing models")
+    models_dir = os.path.join(os.path.dirname(__file__), "models")
+    try:
+        load_models(models_dir=models_dir)
+        logger.info("✅ Models downloaded and loaded successfully!")
+    except Exception as e:
+        logger.error(f"❌ Failed to load models: {e}")
 
 @app.get("/")
 def root():
-    return {"status": "ok", "service": "AI Lifestyle Assistant"}
+    return {
+        "status": "ok",
+        "service": "AI Lifestyle Assistant",
+        "message": "Backend running with models ready"
+    }
