@@ -546,7 +546,7 @@
       const app = initializeApp(firebaseConfig);
       const auth = getAuth(app);
       const db = getFirestore(app);
-      const BACKEND_ORIGIN = "http://127.0.0.1:8000"; // Changed port to match your uvicorn
+      const BACKEND_ORIGIN = "https://styfit-backend.onrender.com"; // Replace with your Render URL
       // --- Helper Functions ---
       async function showMessage(title, text) {
           document.getElementById('messageTitle').textContent = title;
