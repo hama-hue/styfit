@@ -1,12 +1,25 @@
-# Python virtual environment 
-.venv/ 
-backend/.torch_cache/ 
-backend/torch_cache/ 
-backend/models/* 
-backend/.env 
-backend/serviceAccountKey.json 
-.DS_Store 
-Thumbs.db 
-.idea/ 
-*.iml 
-node_modules/ 
+# Python virtual environment
+.venv/
+
+# Torch cache
+backend/.torch_cache/
+backend/torch_cache/
+
+# Model files (but keep folder in repo)
+backend/models/*
+!backend/models/.gitkeep
+
+# Environment & secrets
+backend/.env
+backend/serviceAccountKey.json
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# IDE / editor settings
+.idea/
+*.iml
+
+# Node.js dependencies
+node_modules/
