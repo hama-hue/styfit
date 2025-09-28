@@ -7,7 +7,7 @@ import pandas as pd
 from PIL import Image
 import torch
 from torchvision import models, transforms
-from torchvision.models import ResNet50_Weights
+from torchvision.models import ResNet18_Weights
 from sklearn.neighbors import NearestNeighbors
 import pickle
 import gdown
@@ -31,22 +31,15 @@ def _gdrive_id_to_url(file_id: str) -> str:
     return f"https://drive.google.com/uc?id={file_id}"
 
 def download_from_gdrive(models_dir="models"):
-    """
-    Reads file IDs from env vars:
-      GDRIVE_FEATURES_ID, GDRIVE_METADATA_ID, GDRIVE_KNN_ID
-    and downloads them to backend/models/ if missing.
-    """
     os.makedirs(models_dir, exist_ok=True)
-
     files = {
         "features.npy": os.getenv("GDRIVE_FEATURES_ID", "").strip(),
         "metadata.csv": os.getenv("GDRIVE_METADATA_ID", "").strip(),
         "knn_model.pkl": os.getenv("GDRIVE_KNN_ID", "").strip()
     }
-
     for fname, file_id in files.items():
         if not file_id:
-            logger.warning(f"No env var set for {fname} (expected GDRIVE_*_ID). Skipping download.")
+            logger.warning(f"No env var set for {fname}. Skipping download.")
             continue
         dest = os.path.join(models_dir, fname)
         if os.path.exists(dest):
@@ -61,12 +54,12 @@ def download_from_gdrive(models_dir="models"):
 def load_models(models_dir="models"):
     """
     Loads models and data lazily. Cached after first call.
+    Uses ResNet18 (lighter) on CPU.
     """
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    logger.info(f"Loading ResNet50 on {device}")
+    device = torch.device("cpu")
+    logger.info("Loading ResNet18 on CPU")
 
-    # load resnet50 backbone
-    resnet = models.resnet50(weights=ResNet50_Weights.DEFAULT)
+    resnet = models.resnet18(weights=ResNet18_Weights.DEFAULT)
     resnet.fc = torch.nn.Identity()
     resnet = resnet.to(device)
     resnet.eval()
@@ -77,10 +70,8 @@ def load_models(models_dir="models"):
         transforms.ToTensor(),
     ])
 
-    # Ensure files are present (download if needed)
     download_from_gdrive(models_dir=models_dir)
 
-    # Load features.npy if present
     features_path = os.path.join(models_dir, "features.npy")
     if os.path.exists(features_path):
         MODELS["features"] = np.load(features_path)
@@ -88,7 +79,6 @@ def load_models(models_dir="models"):
     else:
         logger.warning("⚠️ features.npy not found")
 
-    # Load metadata.csv if present
     metadata_path = os.path.join(models_dir, "metadata.csv")
     if os.path.exists(metadata_path):
         MODELS["metadata"] = pd.read_csv(metadata_path)
@@ -96,28 +86,22 @@ def load_models(models_dir="models"):
     else:
         logger.warning("⚠️ metadata.csv not found")
 
-    # Load KNN model if present
     knn_path = os.path.join(models_dir, "knn_model.pkl")
     if os.path.exists(knn_path):
         with open(knn_path, "rb") as f:
             MODELS["knn"] = pickle.load(f)
         logger.info("✅ knn_model.pkl loaded")
+    elif MODELS["features"] is not None:
+        logger.info("No knn_model.pkl found — fitting NearestNeighbors from features.npy")
+        MODELS["knn"] = NearestNeighbors(n_neighbors=5, metric="euclidean")
+        MODELS["knn"].fit(MODELS["features"])
+        logger.info("✅ KNN fitted from features.npy")
     else:
-        # If knn not provided but features exist, fit one (optional)
-        if MODELS["features"] is not None:
-            logger.info("No knn_model.pkl found — fitting NearestNeighbors from features.npy")
-            MODELS["knn"] = NearestNeighbors(n_neighbors=5, metric="euclidean")
-            MODELS["knn"].fit(MODELS["features"])
-            logger.info("✅ KNN fitted from features.npy")
-        else:
-            logger.warning("⚠️ knn_model.pkl not found and features not available — recommendations may not work")
+        logger.warning("⚠️ knn_model.pkl not found and features not available")
 
     return MODELS
 
 def extract_features_from_bytes(image_bytes):
-    """
-    Lazily loads models if not already loaded.
-    """
     if MODELS["feature_extractor"] is None:
         logger.info("⚡ First-time model load triggered...")
         load_models()
