@@ -59,9 +59,10 @@ sniffio==1.3.1
 starlette==0.36.3
 sympy==1.14.0
 threadpoolctl==3.6.0
-torch @ file:///C:/Users/anish/Downloads/wheels/torch-2.8.0%2Bcpu-cp311-cp311-win_amd64.whl#sha256=7631ef49fbd38d382909525b83696dc12a55d68492ade4ace3883c62b9fc140f
-torchvision @ file:///C:/Users/anish/Downloads/wheels/torchvision-0.23.0%2Bcpu-cp311-cp311-win_amd64.whl#sha256=51603eb071d0681abc4db98b10ff394ace31f425852e8de249b91c09c60eb19a
-tqdm==4.67.1
+torch
+torchvision
+torchaudio
+--extra-index-url https://download.pytorch.org/whl/cputqdm==4.67.1
 typing_extensions==4.15.0
 tzdata==2025.2
 uritemplate==4.2.0
