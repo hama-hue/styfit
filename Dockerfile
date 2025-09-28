@@ -1,49 +1,21 @@
-# -----------------------------
-# Base image with Python 3.11.8
-# -----------------------------
-FROM python:3.11.8-slim
+# Use slim Python 3.11 base
+FROM python:3.11-slim
 
-# -----------------------------
-# Set working directory inside container
-# -----------------------------
+# Set working directory
 WORKDIR /app
 
-# -----------------------------
-# Install system dependencies
-# (for some Python packages like cffi, cryptography, etc.)
-# -----------------------------
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends \
-        build-essential \
-        gcc \
-        libffi-dev \
-        libssl-dev \
-        libpq-dev \
-        curl \
-        git \
-        && rm -rf /var/lib/apt/lists/*
-
-# -----------------------------
-# Copy requirements and install
-# -----------------------------
+# Copy only requirements first (better caching)
 COPY requirements.txt .
 
-# Upgrade pip and install dependencies
+# Upgrade pip & install only required packages
 RUN pip install --no-cache-dir --upgrade pip \
     && pip install --no-cache-dir -r requirements.txt
 
-# -----------------------------
-# Copy the rest of the app code
-# -----------------------------
+# Copy app code
 COPY . .
 
-# -----------------------------
-# Expose the port your app uses
-# -----------------------------
-EXPOSE 8000
+# Expose port Render expects
+ENV PORT=10000
 
-# -----------------------------
-# Command to run FastAPI app
-# Adjust 'main:app' to your entry point
-# -----------------------------
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Command to run your FastAPI app
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "10000"]
