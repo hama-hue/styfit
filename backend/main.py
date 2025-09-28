@@ -21,7 +21,7 @@ app.add_middleware(
         "http://127.0.0.1:8001",
         "http://localhost:8001",
         "http://localhost:5500",
-        os.getenv("FRONTEND_ORIGIN", "")  # set FRONTEND_ORIGIN on Render to your frontend URL (optional)
+        os.getenv("FRONTEND_ORIGIN", ""),  # set FRONTEND_ORIGIN on Render (optional)
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -35,19 +35,17 @@ from routers.fitness_routes import router as fitness_router
 app.include_router(style_router, prefix="/style", tags=["style"])
 app.include_router(fitness_router, prefix="/fitness", tags=["fitness"])
 
-# Load ML models at startup
-from utils import load_models
-
-@app.on_event("startup")
-async def startup_event():
-    logger.info("🚀 Loading models at startup...")
-    models_dir = os.path.join(os.path.dirname(__file__), "models")
-    try:
-        load_models(models_dir=models_dir)
-        logger.info("✅ Models loaded successfully!")
-    except Exception as e:
-        logger.exception("❌ Failed to load models: %s", e)
+# ✅ Lazy load: don't load heavy ML models at startup
+logger.info("🚀 App started (ML models will load lazily on first request).")
 
 @app.get("/")
 def root():
     return {"status": "ok", "service": "AI Lifestyle Assistant"}
+
+# Optional: health check endpoint to confirm models are loaded
+from utils import MODELS
+@app.get("/health")
+def health_check():
+    if MODELS.get("feature_extractor") is None:
+        return {"status": "ok", "models": "not loaded yet"}
+    return {"status": "ok", "models": "loaded"}
