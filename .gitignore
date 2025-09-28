@@ -1,16 +1,18 @@
-# Python / Virtual Environment
-.venv/
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.venv/
 
-# Torch / Cache
+# Models and caches
+models/
 backend/.torch_cache/
 backend/torch_cache/
 
-# Models & Secrets
-backend/models/
-backend/.env
-backend/serviceAccountKey.json
-
-# VS Code / OS files
-.vscode/
+# OS/IDE
 .DS_Store
+*.log
+.idea/
+.vscode/
